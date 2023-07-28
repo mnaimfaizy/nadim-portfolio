@@ -1,0 +1,25 @@
+version: '3.9'
+services:
+  portfolio_php:
+    container_name: portfolio_php
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    depends_on:
+      - db_svc
+    volumes:
+      - ./:/var/www/html/
+    ports:
+      - 8000:80
+
+  db_svc:
+    container_name: db_Svc
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: "Kabul@123"
+      MYSQL_DATABASE: "portfoli"
+      MYSQL_USER: "admin"
+      MYSQL_PASSWORD: "Kabul@123"
+    ports:
+      - "3306:3306"

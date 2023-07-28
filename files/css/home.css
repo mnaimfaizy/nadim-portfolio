@@ -1,0 +1,123 @@
+
+.my_img{
+	height: 12vh;
+	width: 100%;
+}
+
+
+
+
+
+/****************************/
+.latest_news{
+	height: 50vh;
+	width: 100%;
+	display: flex;
+	margin-bottom: 2vh;
+}
+.half_img{
+	height: 50vh;
+	width: 50%;
+	position: relative;
+}
+.half_img img{
+	height: 100%;
+	width: 100%;
+}
+.quarter_img{
+	height: 50vh;
+	width: 50%;
+}
+.quarter_img_1{
+	height: 25vh;
+	width: 25%;
+	position: relative;
+}
+.quarter_img_1, img{
+	height: 25vh;
+	width: 100%;
+}
+.quarter_img_2{
+	height: 25vh;
+	width: 70%;
+	position: relative;
+}
+.quarter_img_2, img{
+	height: 25vh;
+	width: 100%;
+}
+
+.overlay{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .5s ease;
+	text-align: center;
+	color: white;
+
+}
+.overlay{
+	height: 20%;
+	text-align: center;
+}
+.overlay_1{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .5s ease;
+	text-align: center;
+	color: white;
+
+}
+.overlay_1{
+	height: 40%;
+	text-align: center;
+	position: absolute;
+}
+
+/******** for date converter */
+.date_converter{
+	height: auto;
+	width: 100%;
+	background: #A2D9CE;
+	padding: 2vh;
+	margin-bottom: 2vh;
+}
+.result{
+	padding: 2vh;
+}
+
+
+@media (max-width: 991px){
+	.overlay{
+		font-size:1rem;
+
+	}
+	.overlay{
+		height: 40%;
+	}
+	.overlay_1{
+		font-size:1rem;
+
+	}
+	.overlay_1{
+		height: 80%;
+	}
+
+}
+
+/****************** for latest post *************/
+
+
+
+.my_latest_posts p{
+	text-align: center;
+}

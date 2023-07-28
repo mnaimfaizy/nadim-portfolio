@@ -1,0 +1,21 @@
+.contact_container{
+	height: auto;
+	width: 100%;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.my_h3{
+	padding: 5vh;
+}
+
+.my_contact img{
+	height: 30vh;
+	width: 100%;
+	margin-bottom: 2vh;
+}
+
+
+
+

@@ -1,0 +1,48 @@
+/*.container{
+	height: auto;
+	width: 100%;
+
+}
+/**************************
+
+.warpper{
+	height: 120vh;
+	width: 100%;
+	display: flex;
+	gap: 2vh;
+}
+
+
+.show_off{
+	height: auto;
+	width: 50vh;
+	background: skyblue;
+	padding: 2vh;
+}
+.show_off p{
+	line-height: 28px;
+	font-size: 15px;
+	height: 90px;
+	overflow: hidden;
+}
+.show_off a{
+	display: inline-block;
+	text-decoration: none;
+	background: yellowgreen;
+	padding: 2vh;
+}
+
+.show_off img{
+	height: 50%;
+	width: 100%;
+}
+
+.show_off.showContent p{
+	height: auto;
+}
+.show_off.showContent a.readmore-btn{
+	background: red;
+}
+
+
+*****/

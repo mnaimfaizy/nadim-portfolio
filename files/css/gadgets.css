@@ -1,0 +1,68 @@
+
+.card{
+	margin: 2vh;
+	margin-bottom: 2vh;
+
+
+}
+.card-title{
+	padding: 2vh;
+}
+.card-body{
+	
+	display: flex;
+	flex-direction: column;
+	background: #C2DED1;
+	
+}
+.card-body hr{
+	border: 1px solid #555;
+	width: 100%;
+	margin-top: -15px;
+}
+.card-body a{
+	text-decoration: none;
+	padding: 7px;
+	color: #444;
+}
+.card-body a:hover{
+	color: #333;
+}
+
+.my_socaial_icons a{
+	color: white;
+}
+.my_socaial_icons a:hover{
+	text-decoration: none;
+	color: orange;
+}
+.my_socaial_icons i{
+	color: orange;
+}
+.my_card_body a{
+	color: #222;
+}
+.my_card_body a:hover{
+	color: brown;
+	text-decoration: none;
+}
+
+.my_card_body i{
+	color: yellow;
+}
+/* for social card */
+
+.my_card_social a:hover{
+	color: white;
+}
+
+/* for the cars of each post */
+
+.my_class{
+	background: #A2D9CE;
+}
+.my_class p{
+	background: #A2D9CE;
+}
+
+/******************** for the nav menu ************/

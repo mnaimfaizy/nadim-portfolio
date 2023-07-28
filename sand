@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="files/css/style.css">
+<!--<link rel="stylesheet" type="text/css" href="files/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> -->
+<title>Single page </title>
+</head>
+<body>
+
+<section id="home">
+	<header>
+		<a href="#"><img src="./files/img/ans.png"></a>
+		<ul id="menu">
+			<li><a href="#home">Home</li>
+			<li><a href="#about">About</li>
+			<li><a href="#profile">Profile</li>
+			<li><a href="#travel">Travel</li>
+		</ul>
+	</header>
+	<div></div>
+</section>
+
+<section id="about"></section>
+<section id="profile"></section>
+<section id="travel"></section>
+		
+
+	
+
+
+</body>
+</html>
