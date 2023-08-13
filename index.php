@@ -3,34 +3,33 @@
 <html>
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="files/css/style.css">
 <link rel="stylesheet" type="text/css" href="files/css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-<title>Single page </title>
+<title>Nadim Walizada </title>
 </head>
 <body>
 
 <section id="home">
-	<div class="hero">
-		<nav class="nav">
-			<h2 class="logo"><a href="#home">N<span class="logo_l" >Walizada</span></a></h2>
-			<ul>
-				<li><a href="#home"><i class="fa-solid fa-house"></i></li>
-				<li><a href="#about">About</li>
-				<li><a href="#education">Education</li>
-				<li><a href="#portfolio">Portfolio</li>
-			</ul>
-			<button class="butt" type="button"><a href="#contact">Contact</a></button>
-		</nav>
-
-	</div>
+    <div class="hero">
+        <nav class="nav">
+            <h2 class="logo"><a href="#home">N<span class="logo_l">Walizada</span></a></h2>
+            <ul>
+                <li><a href="#home"><i class="fa-solid fa-house"></i></li>
+                <li><a href="#about">About</li>
+                <li><a href="#education">Education</li>
+                <li><a href="#portfolio">Portfolio</li>
+                <li class="mobile-contact"><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="butt desktop-contact" type="button"><a href="#contact">Contact</a></button>
+        </nav>
+    </div>
 
 	<div class="home_cont">
 		<div class="home_left">
 			<h3>Passion & <span style="color: tomato;">Personality</span></h3>
 			<p class="home_slogan">Work hard to be a key player in giant team</p>
-
 		</div>
 
 		<div class="home_right">
@@ -227,7 +226,18 @@
 
 
 
-	
+<script>
+    window.addEventListener('scroll', function () {
+        var nav = document.querySelector('.nav');
+        if (window.scrollY > 0) {
+            nav.classList.add('scrolled');
+        } else {
+            nav.classList.remove('scrolled');
+        }
+    });
+</script>
+
+
 <script type="text/javascript">
 var tabButtons =document.querySelectorAll(".edu_container .edu_cont_1 .edu_buttons button");
 var tabPannels = document.querySelectorAll(".edu_container .edu_cont_1 .edu_tabpanel");
