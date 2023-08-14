@@ -14,7 +14,7 @@
 <section id="home">
     <div class="hero">
         <nav class="nav">
-            <h2 class="logo"><a href="#home">N<span class="logo_l">Walizada</span></a></h2>
+            <h2 class="logo"><a href="#home">N &nbsp;<span class="logo_l">Walizada</span></a></h2>
             <ul>
                 <li><a href="#home"><i class="fa-solid fa-house"></i></li>
                 <li><a href="#about">About</li>
